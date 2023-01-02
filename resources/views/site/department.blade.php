@@ -1,5 +1,32 @@
 @extends('layouts.appPortal')
 @section('content')
+<style>
+ .icon i {
+  display: inline-block;
+    font-size: 16px;
+    color: #232323;
+    text-align: center;
+    border: 1px solid #232323;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin:0 5px;
+}
+ .icon-block{
+    float:left;
+    width:100%;
+    margin-top:15px;
+}
+.icon-block a{
+    text-decoration:none;
+}
+.icon i:hover {
+  background-color:#232323;
+  color:#fff;
+  text-decoration:none;
+}
+</style>
 
 <main>
     <!--?-->
