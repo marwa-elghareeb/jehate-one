@@ -1,0 +1,108 @@
+﻿#searchbar{
+	margin-left: 0%;
+	padding:15px;
+	border-radius: 10px;
+}
+
+input[type=text] {
+	width: 50%;
+	-webkit-transition: width 0.15s ease-in-out;
+	transition: width 0.15s ease-in-out;
+}
+
+/* When the input field gets focus,
+		change its width to 100% */
+input[type=text]:focus {
+	width: 100%;
+}
+
+#list{
+	font-size: 1.5em;
+	margin-left: 90px;
+}
+
+.animals{
+display: list-item;	
+}
+/*GROW*/
+.grow img {
+  height: 100%;
+  width: 99%;
+
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.grow img:hover {
+  width: 100%;
+  height: 100%;
+}
+/*GROW*/
+.grow img {
+  height: 100%;
+  width: 99%;
+
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.grow img:hover {
+  width: 100%;
+  height: 100%;
+}
+/*TILT*/
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.tilt:hover {
+  -webkit-transform: rotate(-1deg);
+     -moz-transform: rotate(-1deg);
+       -o-transform: rotate(-1deg);
+      -ms-transform: rotate(-1deg);
+          transform: rotate(-1deg);
+}
+/*SIDEPAN*/
+.sidepan img {
+  margin-left: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+
+.sidepan img:hover {
+  margin-left: -20px;
+}
+/*VERTPAN*/
+.vertpan img {
+  margin-top: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+
+.vertpan img:hover {
+  margin-top: -20px;
+}
+img{-moz-transition: all 0.8s ease-in-out;
+-webkit-transition: all 0.8s ease-in-out;
+-o-transition: all 0.8s ease-in-out;
+-ms-transition: all 0.8s ease-in-out;
+transition: all 0.8s ease-in-out;
+}
+
+
